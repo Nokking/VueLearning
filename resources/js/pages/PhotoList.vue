@@ -39,7 +39,7 @@ export default {
   },
   methods: {
     async fetchPhotos () {
-      const response = await axios.get(`/api/photos?page=${this.page}`)
+      // const response = await axios.get(`/api/photos?page=${this.page}`)
       const response = await axios.get('/api/images',
         {
           params: {
