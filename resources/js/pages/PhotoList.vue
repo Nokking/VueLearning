@@ -39,8 +39,8 @@ export default {
   },
   methods: {
     async fetchPhotos () {
-      const response = await axios.get(`https://gentle-castle-36170.herokuapp.com/api/photos?page=${this.page}`)
-
+      const response = await axios.get(`/api/photos/?page=${this.page}`)
+1
       if (response.status !== OK) {
         this.$store.commit('error/setCode', response.status)
         return false
