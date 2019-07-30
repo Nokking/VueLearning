@@ -50,7 +50,7 @@ img {
 
 .navbar {
   align-items: center;
-  background: #fff;
+  background: rgb(159, 255, 183);
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);
   display: flex;
   height: 4rem;
@@ -514,4 +514,3 @@ img {
   margin-bottom: 1.5rem;
   padding: 1rem;
 }
-
