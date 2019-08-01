@@ -45,8 +45,9 @@
         </li>
       </ul>
       <p v-else>No comments yet.</p>
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+      <a :href="`https://twitter.com/share?ref_src=twsrc%5Etfw`" class="twitter-share-button" data-show-count="false">Tweet</a>
       <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <div>test</div>
       <form v-if="isLogin" @submit.prevent="addComment" class="form">
         <div v-if="commentErrors" class="errors">
           <ul v-if="commentErrors.content">
