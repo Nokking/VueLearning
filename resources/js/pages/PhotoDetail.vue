@@ -49,7 +49,7 @@
           </p>
         </li>
       </ul>
-      <p v-else>No comments yet.</p>
+      <p v-else>No comments yet... Plz comment!</p>
       <form v-if="isLogin" @submit.prevent="addComment" class="form">
         <div v-if="commentErrors" class="errors">
           <ul v-if="commentErrors.content">
